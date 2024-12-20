@@ -1,0 +1,6 @@
+Invoking command in '/home/ultron/Desktop/ros2_ws/build/vr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ultron/Desktop/ros2_ws/src/vr_interfaces -DCMAKE_INSTALL_PREFIX=/home/ultron/Desktop/ros2_ws/install/vr_interfaces
+Invoked command in '/home/ultron/Desktop/ros2_ws/build/vr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ultron/Desktop/ros2_ws/src/vr_interfaces -DCMAKE_INSTALL_PREFIX=/home/ultron/Desktop/ros2_ws/install/vr_interfaces
+Invoking command in '/home/ultron/Desktop/ros2_ws/build/vr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ultron/Desktop/ros2_ws/build/vr_interfaces -- -j28 -l28
+Invoked command in '/home/ultron/Desktop/ros2_ws/build/vr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ultron/Desktop/ros2_ws/build/vr_interfaces -- -j28 -l28
+Invoking command in '/home/ultron/Desktop/ros2_ws/build/vr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ultron/Desktop/ros2_ws/build/vr_interfaces
+Invoked command in '/home/ultron/Desktop/ros2_ws/build/vr_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ultron/Desktop/ros2_ws/build/vr_interfaces

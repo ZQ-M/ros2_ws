@@ -1,0 +1,6 @@
+{
+  "package_name": "vr_interfaces",
+  "non_idl_tuples": [
+    "/home/ultron/Desktop/ros2_ws/src/vr_interfaces:msg/PosCmd.msg"
+  ]
+}

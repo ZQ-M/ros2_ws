@@ -1,0 +1,62 @@
+In file included from [01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:22[m[K:
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvr_interfaces[m[K’ does not name a type
+   62 |   [01;31m[Kvr_interfaces[m[K::msg::PosCmd VR_Left;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvr_interfaces[m[K’ does not name a type
+   63 |   [01;31m[Kvr_interfaces[m[K::msg::PosCmd VR_Right;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:70:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kvr_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   70 |   rclcpp::Publisher<[01;31m[Kvr_interfaces[m[K::msg::PosCmd>::SharedPtr arxvrr_pub_;
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                     [32m[Krcl_interfaces[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:70:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   70 |   rclcpp::Publisher<vr_interfaces::msg::PosCmd[01;31m[K>[m[K::SharedPtr arxvrr_pub_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:70:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   70 |   rclcpp::Publisher<vr_interfaces::msg::PosCmd>::[01;31m[KSharedPtr[m[K arxvrr_pub_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:70:60:[m[K [01;31m[Kerror: [m[K‘[01m[Karxvrr_pub_[m[K’ does not name a type
+   70 |   rclcpp::Publisher<vr_interfaces::msg::PosCmd>::SharedPtr [01;31m[Karxvrr_pub_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:71:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kvr_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   71 |   rclcpp::Publisher<[01;31m[Kvr_interfaces[m[K::msg::PosCmd>::SharedPtr arxvrl_pub_;
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                     [32m[Krcl_interfaces[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:71:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 |   rclcpp::Publisher<vr_interfaces::msg::PosCmd[01;31m[K>[m[K::SharedPtr arxvrl_pub_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:71:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   71 |   rclcpp::Publisher<vr_interfaces::msg::PosCmd>::[01;31m[KSharedPtr[m[K arxvrl_pub_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:71:50:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint rm_serial_driver::RMSerialDriver::SharedPtr[m[K’
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:70:50:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint rm_serial_driver::RMSerialDriver::SharedPtr[m[K’
+   70 |   rclcpp::Publisher<vr_interfaces::msg::PosCmd>::[01;36m[KSharedPtr[m[K arxvrr_pub_;
+      |                                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:71:60:[m[K [01;31m[Kerror: [m[K‘[01m[Karxvrl_pub_[m[K’ does not name a type
+   71 |   rclcpp::Publisher<vr_interfaces::msg::PosCmd>::SharedPtr [01;31m[Karxvrl_pub_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In constructor ‘[01m[Krm_serial_driver::RMSerialDriver::RMSerialDriver(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[Karxvrr_pub_[m[K’ was not declared in this scope
+   41 |   [01;31m[Karxvrr_pub_[m[K = this->create_publisher<vr_interfaces::msg::PosCmd>("ARX_VR_R", 10);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:42:3:[m[K [01;31m[Kerror: [m[K‘[01m[Karxvrl_pub_[m[K’ was not declared in this scope
+   42 |   [01;31m[Karxvrl_pub_[m[K = this->create_publisher<vr_interfaces::msg::PosCmd>("ARX_VR_L", 10);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In member function ‘[01m[Kvoid rm_serial_driver::RMSerialDriver::receiveData()[m[K’:
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:112:11:[m[K [01;31m[Kerror: [m[K‘[01m[KVR_Right[m[K’ was not declared in this scope
+  112 |           [01;31m[KVR_Right[m[K.x= packet.right_XYZ[0];
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:120:11:[m[K [01;31m[Kerror: [m[K‘[01m[KVR_Left[m[K’ was not declared in this scope
+  120 |           [01;31m[KVR_Left[m[K.x= packet.left_XYZ[0];
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:128:11:[m[K [01;31m[Kerror: [m[K‘[01m[Karxvrr_pub_[m[K’ was not declared in this scope
+  128 |           [01;31m[Karxvrr_pub_[m[K->publish(VR_Right);
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ultron/Desktop/ros2_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:129:11:[m[K [01;31m[Kerror: [m[K‘[01m[Karxvrl_pub_[m[K’ was not declared in this scope
+  129 |           [01;31m[Karxvrl_pub_[m[K->publish(VR_Left);
+      |           [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rm_serial_driver.dir/build.make:76：CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/rm_serial_driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
